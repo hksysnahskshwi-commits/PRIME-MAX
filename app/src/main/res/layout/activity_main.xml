@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090D18"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BGMI PRIME MAX"
+            android:textColor="#46D9FF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="PREMIUM GAME LAUNCHER"
+            android:textColor="#AAB6CC"
+            android:textSize="11sp"
+            android:letterSpacing="0.18" />
+
+        <TextView
+            android:id="@+id/percentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="1%"
+            android:textColor="#FFFFFF"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="18dp"
+            android:max="100"
+            android:progress="1"
+            android:progressTint="#26C6DA"
+            android:progressBackgroundTint="#29364A" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Starting..."
+            android:textColor="#AAB6CC"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/soundButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="ENGINE SOUND: ON" />
+
+        <Button
+            android:id="@+id/facebookButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="SET UP FACEBOOK LOGIN" />
+
+        <Button
+            android:id="@+id/launchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="OPEN BGMI" />
+
+        <Button
+            android:id="@+id/restartButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="REPLAY LOADING" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Standalone launcher UI. No game modification, ESP, aimbot, injection or anti-cheat bypass."
+            android:textColor="#8492A8"
+            android:textSize="11sp" />
+    </LinearLayout>
+</ScrollView>
